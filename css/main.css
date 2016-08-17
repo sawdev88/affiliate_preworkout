@@ -4,6 +4,7 @@ body, html {
   margin: 0;
   padding: 0;
   text-align: center;
+  color: #444;
 }
 
 .header-img {
@@ -67,6 +68,7 @@ body, html {
 .item-header {
   text-align: left;
   font-size: 3em;
+  color: #333;
 }
 
 .item-list img {
@@ -162,5 +164,11 @@ body, html {
   }
   .footer p {
     font-size: .8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .item-header {
+    font-size: 1.9em;
   }
 }
